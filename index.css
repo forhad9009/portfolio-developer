@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 100px;
+}
+.title-color{
+    color: magenta;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style-type: none;
+    margin-left: 10px;
+}
+.btn{
+    background-color: orangered;
+    color: aliceblue;
+    border: 0;
+    padding: 7px 18px;
+    height: 38px;
+    border-radius: 8px;
+}
+.banner{
+    display:flex;
+    margin: 0 100px;
+}
+.banner h3{
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+.banner h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.banner p{
+    color:rgb(192, 122, 30);
+    margin-bottom: 20px;
+}
+.header{
+    background-color: rgb(190, 235, 119);
+    background-image: url(header_bg.png),url(portfolio-resources/images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+   
+}
+main{
+    background-color: aqua;
+}
+.about{
+    text-align: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 100px 130px;
+}
+.about h3{
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.about p{
+    /* margin-top: 10px; */
+    max-width: 400px;
+    margin: 0 auto;
+}
